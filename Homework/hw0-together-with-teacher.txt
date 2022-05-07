@@ -1,0 +1,43 @@
+   0 mkdir -p /home/animals/dogs
+   1 ls -la
+   2 ls -la /home/animals/
+   3 mkdir /home/animals/cats
+   4 mkdir /home/animals/fish
+   5 cd /home/animals
+   6 touch pluto/pluto
+   7 touch dogs/pluto
+   8 touch cats/garfield
+   9 mkdir /home/humans
+  10 touch /tmp/adam
+  11 touch /fish/nemo
+  12 touch fish/nemo
+  13 ls -la
+  14 cd ls -la
+  15 cd ls -ls /home/animals/fish
+  16 ls -la /home/animals/dogs
+  17 cd
+  18 ls -la 
+  19 ls -la /home/animals/fish
+  20 cp /tmp/adam /home/humans
+  21 cd /home/humans
+  22 ls
+  23 cd
+  24 touch /tmp/eva
+  25 mv /tmp/eva /home/humans
+  26 ls -ls
+  27 ls -la /home/humans
+  28 history > /tmp/history
+  29 export_file /tmp/history.txt
+  30 history > /tmp/history.txt
+
+Create directory animals in /home 
+Create subdirectories dogs, cats, fish in animals directory, created earlier
+Add files pluto, nemo and garfield to directories, created earlier ( pluto goes to dogs, garfield goes to cats) 
+In /tmp directory create file adam
+Copy file adam to /home/humans ( create directory) 
+Create file evA in /tmp
+Rename and move evA to /opt/eve
+Move file eve to humans directory ( /home/humans)
+Make sure you have adam and eve in humans directory with ls command
+enter in terminal:
+

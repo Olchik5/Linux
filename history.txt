@@ -1,0 +1,64 @@
+   0 ls
+   1 history
+   2 cd /home
+   3 mkdir user1
+   4 ls
+   5 cd /user1
+   6 cd user1
+   7 mkdir task1
+   8 ls
+   9 cd task1
+  10 ls
+  11 touch file1.txt
+  12 pwd
+  13 ls -l
+  14 ls -1
+  15 clear
+  16 date
+  17 pwd
+  18 cd
+  19 mrdir -p /home/user2/task2/
+  20 mkdir -p /home/user2/task2/
+  21 mkdir /111
+  22 ls /
+  23 history
+  24 touch /home/user2/task2/file3.txt
+  25 mkdir /home/user2/task2/
+  26 ls /home/user2/task2/
+  27 touch /home/user2/task2/file2.txt
+  28 ls
+  29 rdw
+  30 pwd
+  31 touch /home/user2/task2/file2.txt
+  32 ls
+  33 mkdir -p user3/task3
+  34 ls /home
+  35 mkdir -p /home/user3/task3
+  36 ls /home
+  37 ls
+  38 ls /
+  39 tree /home
+  40 touch /home/user3/task3/file3.txt
+  41 ls /home/user3/task3/
+  42 mkdir -p /home/user4/task4
+  43 ls /home/user4
+  44 ls /home/user4/task4/
+  45 tauch /home/user4/task4/file4.txt
+  46 ls /home/user4/task4/
+  47 touch /home/user4/task4/file4.txt
+  48 ls /home/user4/task4
+  49 ls /home
+  50 cp /home/user2/task2/file2.txt /tmp
+  51 ls /ho
+  52 cp /home/user3/task3/file3.txt /tmp
+  53 cp /home/user2/task2/file2.txt /tmp/newfile
+  54 ls /tmp
+  55 ls  /home
+  56 ls -l /home
+  57 mv /tmp/newfile /opt
+  58 cp /home/user2 /tmp/mewfile
+  59 cp /home/user2 /tmp/newfile
+  60 cp -r /home/user2 /tmp/newfile
+  61 ls /home
+  62 export_file /tmp/history.txt
+  63 history > /tmp/history.txt

@@ -1,0 +1,58 @@
+Скрипт:
+
+#!/bin/bash
+touch file.txt
+df -h | awk '{print$6}'| sed 's/shm/olga/g' > file.txt | cat file.txt   
+
+
+Что выводится на экран:
+Mounted
+/
+/dev
+/run
+/dev/olga
+
+История команд:
+
+   0 nano script.sh
+   1 ls -l
+   2 chmod +x script.sh
+   3 ls -l
+   4 ./script.sh
+   5 ls -la
+   6 cat file.txt
+   7 nano script.sh
+   8 ./script.sh
+   9 cat file.txt
+  10 chmod +x script.sh
+  12 cat file.txt
+  13 nano script.sh
+  14 cat file.txt
+  15 chmod +x script.sh
+  16 ./script.sh
+  17 nano script.sh
+  18 ./script.sh
+  19 cat file.txt
+  20 df -h
+  21 nano script.sh
+  22 ./script.sh
+  23 cat file.txt
+  24 df -h
+  25 nano script.sh
+  26 ./script.sh
+  27 cat file.txt
+  28 nano script.sh
+  29 ./script.sh
+  30 cat file.txt
+  31 ls -la
+  32 df -h
+  33 cat file.txt
+  34 nano script.sh
+  35 ./script.sh
+  36 cat file.txt
+  37 ./script.sh
+  38 nano script.sh
+  39 ./script.sh
+  40 nano script.sh
+  41 ./script.sh
+  42 history > /tmp/history.txt

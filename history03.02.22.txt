@@ -1,0 +1,52 @@
+   0 date
+   1 date > /tmp/file
+   2 cat /tmp/file
+   3 echo "hello word"
+   4 echo "hello word" >> /tmp/file
+   5 cat /tmp/file
+   6 cat /etc/group
+   7 cat /etc/group | wc -l
+   8 cat /etc/group | wc 
+   9 cat /etc/group | head
+  10 cat /etc/group | head -3
+  11 cat /etc/group | tail
+  12 cat /etc/group | tail -5
+  13 history | tail -3 >> /tmp/file
+  14 cat /tmp/file
+  15 cat /etc/group
+  16 cat /etc/group | grep root
+  17 cat /etc/group 
+  18 cat /etc/group | grep -w user2
+  19 cat /etc/group | grep -w user2 | wc -1
+  20 cat /etc/group | grep -w user2 | wc -l
+  21 cat /etc/group | grep -w user2 | wc -l >> /tmp/file
+  22 cat /etc/group/file
+  23 cat /tmp/file
+  24 df
+  25 df -h
+  26 df -h | head -2
+  27 df -h | head -1
+  28 df -h | head -4
+  29 df -h | tail -1
+  30 df -h | grep /
+  31 df -h | grep -w /
+  32 df -h | grep -w / awk | '{print $5}'
+  33 df -h | grep -w / | awk '{print $5}'
+  34 df -h 
+  35 df -h | grep -w / 
+  36 df -h | grep -w / | awk '{print $6}'
+  37 df -h | grep -w / | awk '{print $1}'
+  38 df -h | grep -w / | awk '{print $0}'
+  39 df -h | grep -w / | awk '{print $5}'
+  40 cat /etc/group | grep -w user2
+  41  cat /etc/group | grep -w user2 | sed 's/user2/olga/g'
+  42 df -h | grep -w / | awk '{print $5}' | sed 's/%//g
+  43 df -h | grep -w / | awk '{print $5}' | sed 's/%//g'
+  44 cat /etc/group
+  45 localhost:~# df -h | grep -w / | awk '{print $5}' | sed 's/%//g'
+  46 localhost:~# df -h | grep -w / | awk '{print $5}' | sed 's/%//g''
+  47 localhost:~# df -h | grep -w / | awk '{print $5}' | sed 's/%//g'
+  48  df -h | grep -w / | awk '{print $5}' | sed 's/%//g'
+  49 history >> /tmp/file
+  50 cat /tmp/file
+  51 history > /tmp/history.txt
